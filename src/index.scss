@@ -1,1 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
+@import "/src/components/navbar/Navbar.scss";
+
+@include FcbNavbar();

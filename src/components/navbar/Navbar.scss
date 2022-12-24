@@ -1,0 +1,18 @@
+@mixin FcbNavbar {
+    .fcb-navbar {
+        background: linear-gradient(90deg, rgba(0, 77, 152, 1) 0%, rgba(237, 187, 0, 1) 100%) !important;
+    }
+
+    .fcb-links {
+        width: 100%;
+
+        .fcb-link {
+            color: #a50044 !important;
+            font-size: 26px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: end !important;
+        }
+    }
+
+}
